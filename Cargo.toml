@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/forge-core", "crates/forge-ecs",
+    "crates/forge-renderer",
+    "examples/hello_triangle"
+]
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
